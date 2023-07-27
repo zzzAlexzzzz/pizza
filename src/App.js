@@ -6,7 +6,7 @@ import "./scss/app.scss";
 import React from "react";
 import NotFoud from "./pages/NotFoud";
 
-export const SearchContext = React.createContext("");
+export const SearchContext = React.createContext();
 
 function App() {
   const [searchValue, setSearchValue] = React.useState("");
